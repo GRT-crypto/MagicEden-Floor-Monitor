@@ -31,7 +31,7 @@ def parse_floor(unparsed_amount):
         amount = unparsed[0:4] + "." + unparsed[5:7]
         return float(amount)
     else:
-        print("MagicEden Timeout - Wait A Few Seconds")
+        print("MagicEden Timeout or Malformatted API Response")
 
 def main():
 
